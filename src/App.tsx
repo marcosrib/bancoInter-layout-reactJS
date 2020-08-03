@@ -8,10 +8,13 @@ import GlobalStyles from './styles/global';
 
 import Header from './components/header';
 
+import Gradient from './components/gradient';
+
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <Header />
+      <Gradient />
      <GlobalStyles />
     </ThemeProvider>
   )
